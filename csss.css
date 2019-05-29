@@ -1,0 +1,335 @@
+body {
+      font-family: "Times New Roman", Times, serif}
+
+h1   {color: #d9d9d9;
+      font-weight: normal;
+      font-size: 43px}
+
+h2   {color:#d9d9d9;
+      font-weight: bold;
+      font-size: 30px}
+      
+h3   {color:#9b8c8e;
+      font-weight:700;
+      font-size: 33px}
+
+
+h4  {color:#d9d9d9;
+    font-weight: bold;
+  font-size: 28px}
+  
+h5   {color:#d9d9d9;
+    font-weight: normal;
+  font-size: 18px
+  }
+  
+h6   {color:black;
+      font-weight: 400;
+      font-size: 22px}
+       
+  
+#navigation {
+  width: 99%;
+  position: fixed;
+  /* eliminates small gap at top of the page */
+  top: 1px;
+  background:#8b424c;
+  height: 150px;
+  border-radius: 30px;
+  
+}
+
+#content {
+  padding-top: 90px;
+}
+
+:target:before {
+content:"";
+display: block;
+/* fixed header height*/ 
+height:120px; 
+}  
+
+#menu {
+  width: 100%;
+  height: 55px;
+  font-size: 21px;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  background-color: #9b8c8e;
+  border-radius: 60px;
+border:solid black;
+
+}
+
+/* Menu division: format the unordered list so that it appears directly below the title of the page and below the edge of the colour background */
+#menu ul {
+  height: auto;
+  padding: 0px 18px;
+  /*margin: 0px;*/
+}
+
+/* Menu division: format the list items so that they display across the page instead of in a vertical list */
+#menu li {
+display: inline;
+padding: 15px;
+}
+
+/* Menu division: format the link items so that they are dark blue, spaced apart, and do not have underlines */
+#menu a:link {
+    color:white;
+
+}
+
+#menu a:visited {
+	color:#666633;
+}
+
+#menu a:hover {
+	color:#996633;
+}
+
+#RSS {
+background-color:#9b8c8e;
+ width: 98%;
+font-size: 32px;
+border: 2px solid black;
+      border-radius: 10px;
+      padding: 9px;
+} 
+ 
+caption{
+  font-size 14px;
+  font-weight:bold;
+  color:purple;
+    margin: 0px auto;
+       border-width: pt;
+}
+
+table{
+  border-collapse:clooapse;
+  border:1px solid black;
+
+  width:40%;
+  z-index:-1;
+  
+}
+
+
+
+/* Our form formatting */
+
+form {background: #9b8c8e;
+      border: 2px solid black;
+      border-radius: 10px;
+      padding: 9px;
+
+}
+
+input[type="text"] {
+  width:40%;
+}
+
+textarea {
+  width: 100%;
+  height: 2em;
+  
+}
+
+
+#table1 table {
+  position: absolute;
+  margin-left:50%;
+
+}
+
+#how {
+	margin-right:56%;
+}
+
+#Introduction {
+	margin-right:14%;
+}
+	
+div.gallery {
+
+    margin: 5px;
+
+    border: 1px solid #ccc;
+
+    float: left;
+	width: 600px;
+    background-color:#8b424c;
+}
+
+​
+
+div.gallery:hover {
+
+    border: 1px solid #777;
+
+}
+
+​
+
+div.gallery img {
+
+    width: 100%;
+
+    height: auto;
+
+}
+
+​
+
+div.desc {
+
+    padding: 15px;
+
+    text-align: center;
+
+}
+
+
+.center{margin-left:9%;} 
+
+
+#index a {color : black;
+text-decoration:none;}
+
+
+
+
+
+
+
+	
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+
+.fa-vine {
+  background: #00b489;
+  color: white;
+}
+
+.fa-foursquare {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-stumbleupon {
+  background: #eb4924;
+  color: white;
+}
+
+.fa-flickr {
+  background: #f40083;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+.fa-soundcloud {
+  background: #ff5500;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}		
+
+#share-buttons img {
+width: 30px;
+padding: 10px;
+border: 1;
+box-shadow: 0;
+display: inline;
+
+}
